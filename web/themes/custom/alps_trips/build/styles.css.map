@@ -1,0 +1,1 @@
+{"version":3,"file":"styles.css","mappings":";;;AAAA;EACE,wBAAwB;AAC1B","sources":["webpack://alps_trips/./css/tailwind.css"],"sourcesContent":["body {\r\n  background-color: yellow;\r\n}\r\n"],"names":[],"sourceRoot":""}

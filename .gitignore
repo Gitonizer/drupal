@@ -9,6 +9,14 @@
 /web/sites/*/*settings*.php
 /web/sites/*/*services*.yml
 
+# Ignore contributed code.
+vendor
+web/core
+web/modules/contrib
+web/profiles/contrib
+web/themes/contrib
+web/sites/default/files
+
 # Ignore paths that may contain user-generated content
 /web/sites/*/files
 /web/sites/*/public
@@ -60,3 +68,4 @@
 /drush
 /drupal.phar
 /drupal
+node_modules
