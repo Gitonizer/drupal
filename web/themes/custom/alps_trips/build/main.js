@@ -62,6 +62,7 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_tailwind_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/tailwind.css */ "./css/tailwind.css");
 
+
 })();
 
 /******/ })()

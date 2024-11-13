@@ -1,8 +1,8 @@
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   content: [
-    './templates/**/*.html.twig',
-    '../../../../storybook/stories/**/*.html.twig',
-    './js/**/*.js',
+    "./templates/**/*.html.twig",
+    "../../../../storybook/stories/**/*.html.twig",
+    "./js/**/*.js",
   ],
 };

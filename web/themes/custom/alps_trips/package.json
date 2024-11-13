@@ -5,22 +5,9 @@
   "author": "Luca Lusso",
   "license": "GPL-3.0",
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
     "css-loader": "^7.1.2",
-    "eslint": "^8.56.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-yml": "^1.15.0",
     "mini-css-extract-plugin": "^2.9.2",
-    "postcss": "^8.4.47",
     "postcss-loader": "^8.1.1",
-    "prettier": "^3.3.3",
-    "stylelint": "^16.10.0",
-    "stylelint-config-standard": "^36.0.1",
-    "stylelint-config-tailwindcss": "^0.0.7",
-    "stylelint-order": "^6.0.4",
     "tailwindcss": "3",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
@@ -29,8 +16,6 @@
     "build": "webpack --config webpack.config.js",
     "build:dev": "webpack --config webpack.config.js --mode development",
     "start": "webpack --watch",
-    "start:dev": "webpack --watch --mode development",
-    "lint:css": "stylelint \"**/*.css\"",
-    "lint:js": "node ./node_modules/eslint/bin/eslint.js --fix ."
+    "start:dev": "webpack --watch --mode development"
   }
 }
